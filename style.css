@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.top-section {
+    margin-top: 0;
+    padding: 150px 0;
+    background-image: url(images/best-web-design.jpeg);
+    text-align: center;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken(453);
+    color: white;
+    text-shadow: 10px 10px 5px black;
+
+}
+
+.top-section background-image {
+    opacity: 0.5;
+}
+
+.person {
+    width: 40%;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 5px 5px 10px green;
+}
+
+.persons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.our-teams {
+    text-align: center;
+    font-size: 50px;
+}
